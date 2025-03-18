@@ -35,5 +35,6 @@ public class Patter9 {
             }
             System.out.println();
         }
+        sc.close();
     }
 }
