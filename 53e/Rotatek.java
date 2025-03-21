@@ -14,11 +14,11 @@ public class Rotatek {
         int brr[]=new int[n];
         int c=0;
         if(k<n){
-            for(int i=k-1;i<n;i++){
+            for(int i=n-k;i<n;i++){
                 brr[c]=arr[i];
                 c++;
             }
-            for(int i=0;i<k-1;i++){
+            for(int i=0;i<n-k;i++){
                 brr[c]=arr[i];
                 c++;
             }
